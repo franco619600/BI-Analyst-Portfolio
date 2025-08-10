@@ -1,0 +1,53 @@
+# Exercise 01: Setting up an Excel Data Source in Power BI
+
+## Introduction
+In this exercise, I set up a Microsoft Excel data source for Power BI, connecting to an Excel file, selecting and importing data, and creating a basic report.  
+The goal is to put into practice the skills of connecting to flat files, ensuring data quality, and building an initial visualization.
+
+## Case Study
+Jamie, an Adventure Works executive, requested a report for the Sales department, showing details for each required order — including:
+- Product
+- Unit Price
+- Order Quantity
+- Discount Rate  
+
+The report will be used during the annual review meeting.  
+Each country manager provided a Microsoft Excel workbook containing the relevant data. My task was to connect to all of them and combine them into a single Power BI report.
+
+## Resources
+- **Software:** Power BI Desktop
+- **Data:** Excel flat file (no pivot tables, totals, or mixed data types)
+- **Files in this folder:**
+  - `Exercise_Setting up an Excel data source.csv` – raw data
+  - `Sales_Report.pbix` – Power BI project file
+  - `dashboard_screenshot.png` – final dashboard view
+
+## Steps Taken
+### Step 1: Prepare the File
+- Saved the Excel file locally (or via OneDrive/SharePoint).
+- Ensured the dataset followed these rules:
+  - No total rows/columns
+  - Each column contains a single data type
+  - Table format (no pivot/matrix)
+  - Table name without spaces
+
+### Step 2: Connect to the Data in Power BI
+1. Opened Power BI Desktop.
+2. Selected **Get Data → Excel**.
+3. Navigated to the file location and selected the relevant worksheet.
+4. Imported the table via the Navigator window.
+5. Loaded the data into Power BI.
+
+### Step 3: Explore and Save
+- Checked the imported data in **Data View**.
+- Saved the Power BI project file.
+
+## Output
+- **PBIX File:** Contains the connected and cleaned dataset, ready for analysis.
+- **Dashboard Screenshot:** Shows the final view of the report created in Power BI.
+
+## Skills Demonstrated
+- Connecting Excel as a data source
+- Data quality checks and formatting
+- Power BI data loading
+- Basic visualization setup
